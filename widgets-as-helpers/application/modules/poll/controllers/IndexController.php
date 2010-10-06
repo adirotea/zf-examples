@@ -11,6 +11,7 @@ class Poll_IndexController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+        $this->getResponse()->appendBody('I come from Poll');
     }
 
 	public function createAction()
