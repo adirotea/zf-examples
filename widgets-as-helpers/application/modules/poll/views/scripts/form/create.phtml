@@ -1,0 +1,9 @@
+<form enctype="application/x-www-form-urlencoded" action="" method="post">
+<dl class="zend_form">
+	<dt id="name-label"><label for="poll-name" class="required">Name:</label></dt>
+	<dd id="name-element">
+		<input type="text" name="poll[name]" id="poll-name" value="<?php echo $this->escape($this->form->name->getValue()) ?>">
+	</dd>
+	<input type="submit" name="poll[submit]" id="poll-submit" value="Save">
+</dl>
+</form>
